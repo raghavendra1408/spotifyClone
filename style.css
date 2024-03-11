@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Varela+Round&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #50727B;
+}
+.nav-bar{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    height: 65px;
+    color: white;
+    background-color: black;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 70vh;
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    color: white;
+    margin: 25px auto;
+    width: 70%;
+    border-radius: 0.75rem;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+footer{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    min-width:80vw;
+}
+
+.songContainer{
+    margin-top: 2rem;
+}
+
+
+.songItem{
+    height: 40px;
+    display: flex;
+    width: 39vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    border-radius: 0.5rem;
+    margin:12px 0;
+}
+
+
+.songItem img{
+    width: 43px;
+    border-radius: 50%;
+}
+
+.timestamp i{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+span i{
+    margin: 0 10px 0 0;
+}
+
+.songInfo{
+    position: absolute;
+    left: 9.7vw;
+}
+
+.songInfo img{
+    width: 5vw;
+    opacity: 0;
+}
