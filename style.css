@@ -68,6 +68,7 @@ footer{
 
 #myProgressBar{
     min-width:80vw;
+    cursor: pointer;
 }
 
 .songContainer{
@@ -76,9 +77,9 @@ footer{
 
 
 .songItem{
-    height: 40px;
+    height: 30px;
     display: flex;
-    width: 39vh;
+    width: 80vh;
     align-items: center;
     justify-content: space-between;
     background-color: white;
@@ -89,7 +90,8 @@ footer{
 
 
 .songItem img{
-    width: 43px;
+    height: 28px;
+    width: 28px;
     border-radius: 50%;
 }
 
@@ -105,9 +107,11 @@ span i{
 .songInfo{
     position: absolute;
     left: 9.7vw;
+    font-family: "Montserrat", sans-serif;
 }
 
 .songInfo img{
     width: 5vw;
     opacity: 0;
+    transition: opacity 0.3s ease-in;
 }
